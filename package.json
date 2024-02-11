@@ -10,6 +10,7 @@
     "dev": "tsx watch server.ts",
     "build": "pnpm compile && pnpm esbuild",
     "esbuild": "node esbuild.mjs",
+    "start": "node dist/server.js",
     "compile": "tsc",
     "lint": "eslint . --ext .ts --fix",
     "pretty": "pnpm prettier --write .",
