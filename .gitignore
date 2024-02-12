@@ -4,3 +4,5 @@ build
 dist
 .serverless
 .env
+# Local Netlify folder
+.netlify

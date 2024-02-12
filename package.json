@@ -8,8 +8,7 @@
   },
   "scripts": {
     "dev": "tsx watch server.ts",
-    "build": "npm run compile && npm run esbuild",
-    "vercel-build": "node dist/server.js",
+    "build": "pnpm compile && pnpm esbuild",
     "esbuild": "node esbuild.mjs",
     "start": "node dist/server.js",
     "compile": "tsc",
